@@ -1,2 +1,8 @@
+jar\circle\TestsForCircle.class
+jar\quadrate\TestsForQuadrate.class
 jar\NewTest.class
+jar\ExpectedExeption.class
+jar\rectangle\TestsForRectangle.class
+jar\circle\TestFactoryForCircle.class
+jar\Parent.class
 jar\ParameterTest.class

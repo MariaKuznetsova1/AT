@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Tests for GeometricObjects]">
+  <parameter name="sideOfASquare" value="26.594"/>
+  <parameter name="value" value="-125"/>
+  <test name="QuadrateParameter1(failed)">
+    <parameter name="sideOfASquare" value="-26.594"/>
+    <classes>
+      <class name="jar.quadrate.TestsForQuadrate">
+        <methods>
+          <include name="testGetPerimeter" invocation-numbers="0"/>
+          <include name="testGetQuadrate"/>
+        </methods>
+      </class> <!-- jar.quadrate.TestsForQuadrate -->
+    </classes>
+  </test> <!-- QuadrateParameter1(failed) -->
+  <test name="QuadrateParameter2(failed)">
+    <parameter name="sideOfASquare" value="-3"/>
+    <classes>
+      <class name="jar.quadrate.TestsForQuadrate">
+        <methods>
+          <include name="testGetPerimeter" invocation-numbers="0"/>
+          <include name="testGetQuadrate"/>
+        </methods>
+      </class> <!-- jar.quadrate.TestsForQuadrate -->
+    </classes>
+  </test> <!-- QuadrateParameter2(failed) -->
+  <test name="QuadrateParameter3(failed)">
+    <parameter name="sideOfASquare" value="0"/>
+    <classes>
+      <class name="jar.quadrate.TestsForQuadrate">
+        <methods>
+          <include name="testGetPerimeter" invocation-numbers="0"/>
+          <include name="testGetQuadrate"/>
+        </methods>
+      </class> <!-- jar.quadrate.TestsForQuadrate -->
+    </classes>
+  </test> <!-- QuadrateParameter3(failed) -->
+  <test name="QuadrateParameter6(failed)">
+    <parameter name="value" value="-125"/>
+    <classes>
+      <class name="jar.ExpectedExeption">
+        <methods>
+          <include name="testForFailing" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- jar.ExpectedExeption -->
+    </classes>
+  </test> <!-- QuadrateParameter6(failed) -->
+  <test name="TestsWithFactoryForCircle(failed)">
+    <classes>
+      <class name="jar.circle.TestsForCircle">
+        <methods>
+          <include name="testGetSquare"/>
+          <include name="testGetSquare"/>
+          <include name="testGetCircumference"/>
+          <include name="testGetCircumference"/>
+          <include name="testGetCircumference"/>
+          <include name="testGetCircumference"/>
+        </methods>
+      </class> <!-- jar.circle.TestsForCircle -->
+    </classes>
+  </test> <!-- TestsWithFactoryForCircle(failed) -->
+  <test name="TestsWithDataProviderForRectangle(failed)">
+    <classes>
+      <class name="jar.rectangle.TestsForRectangle">
+        <methods>
+          <include name="testGetSquare" invocation-numbers="2 3 5 6 9"/>
+          <include name="testIsQuadrate" invocation-numbers="1 2 4 5 7"/>
+          <include name="testGetPerimeter" invocation-numbers="1 2 3 4 5 6 7 8 9 10"/>
+        </methods>
+      </class> <!-- jar.rectangle.TestsForRectangle -->
+    </classes>
+  </test> <!-- TestsWithDataProviderForRectangle(failed) -->
+</suite> <!-- Failed suite [Tests for GeometricObjects] -->
