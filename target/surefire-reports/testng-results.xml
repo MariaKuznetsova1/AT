@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Parallel Suite" duration-ms="58" started-at="2019-02-04T12:57:33Z" finished-at="2019-02-04T12:57:33Z">
+  <suite name="Parallel Suite" duration-ms="52" started-at="2019-01-17T15:49:40Z" finished-at="2019-01-17T15:49:40Z">
     <groups>
     </groups>
-    <test name="Test0" duration-ms="12" started-at="2019-02-04T12:57:33Z" finished-at="2019-02-04T12:57:33Z">
+    <test name="Test0" duration-ms="9" started-at="2019-01-17T15:49:40Z" finished-at="2019-01-17T15:49:40Z">
       <class name="jar.NewTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:jar.NewTest@58ceff1]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-02-04T15:57:33Z" finished-at="2019-02-04T15:57:33Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:jar.NewTest@58ceff1]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-01-17T18:49:40Z" finished-at="2019-01-17T18:49:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:jar.NewTest@58ceff1]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-02-04T15:57:33Z" finished-at="2019-02-04T15:57:33Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:jar.NewTest@58ceff1]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-01-17T18:49:40Z" finished-at="2019-01-17T18:49:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:jar.NewTest@58ceff1]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-02-04T15:57:33Z" finished-at="2019-02-04T15:57:33Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:jar.NewTest@58ceff1]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-01-17T18:49:40Z" finished-at="2019-01-17T18:49:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:jar.NewTest@58ceff1]" name="f" duration-ms="0" started-at="2019-02-04T15:57:33Z" data-provider="dp" finished-at="2019-02-04T15:57:33Z">
+        <test-method status="PASS" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:jar.NewTest@58ceff1]" name="f" duration-ms="0" started-at="2019-01-17T18:49:40Z" data-provider="dp" finished-at="2019-01-17T18:49:40Z">
           <params>
             <param index="0">
               <value>
@@ -35,15 +35,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:jar.NewTest@58ceff1]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-02-04T15:57:33Z" finished-at="2019-02-04T15:57:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:jar.NewTest@58ceff1]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-02-04T15:57:33Z" finished-at="2019-02-04T15:57:33Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:jar.NewTest@58ceff1]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-01-17T18:49:40Z" finished-at="2019-01-17T18:49:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:jar.NewTest@58ceff1]" name="f" duration-ms="1" started-at="2019-02-04T15:57:33Z" data-provider="dp" finished-at="2019-02-04T15:57:33Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:jar.NewTest@58ceff1]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-01-17T18:49:40Z" finished-at="2019-01-17T18:49:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:jar.NewTest@58ceff1]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-01-17T18:49:40Z" finished-at="2019-01-17T18:49:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:jar.NewTest@58ceff1]" name="f" duration-ms="0" started-at="2019-01-17T18:49:40Z" data-provider="dp" finished-at="2019-01-17T18:49:40Z">
           <params>
             <param index="0">
               <value>
@@ -59,77 +63,73 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:jar.NewTest@58ceff1]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-02-04T15:57:33Z" finished-at="2019-02-04T15:57:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:jar.NewTest@58ceff1]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-02-04T15:57:33Z" finished-at="2019-02-04T15:57:33Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:jar.NewTest@58ceff1]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-01-17T18:49:40Z" finished-at="2019-01-17T18:49:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:jar.NewTest@58ceff1]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-02-04T15:57:33Z" finished-at="2019-02-04T15:57:33Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:jar.NewTest@58ceff1]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-01-17T18:49:40Z" finished-at="2019-01-17T18:49:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- jar.NewTest -->
     </test> <!-- Test0 -->
-    <test name="Test1" duration-ms="8" started-at="2019-02-04T12:57:33Z" finished-at="2019-02-04T12:57:33Z">
+    <test name="Test1" duration-ms="6" started-at="2019-01-17T15:49:40Z" finished-at="2019-01-17T15:49:40Z">
       <class name="jar.ParameterTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:jar.ParameterTest@4411d970]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-02-04T15:57:33Z" finished-at="2019-02-04T15:57:33Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:jar.ParameterTest@4411d970]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-01-17T18:49:40Z" finished-at="2019-01-17T18:49:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:jar.ParameterTest@4411d970]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-02-04T15:57:33Z" finished-at="2019-02-04T15:57:33Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:jar.ParameterTest@4411d970]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-01-17T18:49:40Z" finished-at="2019-01-17T18:49:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:jar.ParameterTest@4411d970]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-02-04T15:57:33Z" finished-at="2019-02-04T15:57:33Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:jar.ParameterTest@4411d970]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-01-17T18:49:40Z" finished-at="2019-01-17T18:49:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="testCase1()[pri:0, instance:jar.ParameterTest@4411d970]" name="testCase1" duration-ms="3" started-at="2019-02-04T15:57:33Z" finished-at="2019-02-04T15:57:33Z">
+        <test-method status="PASS" signature="testCase1()[pri:0, instance:jar.ParameterTest@4411d970]" name="testCase1" duration-ms="2" started-at="2019-01-17T18:49:40Z" finished-at="2019-01-17T18:49:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase1 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:jar.ParameterTest@4411d970]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-02-04T15:57:33Z" finished-at="2019-02-04T15:57:33Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:jar.ParameterTest@4411d970]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-01-17T18:49:40Z" finished-at="2019-01-17T18:49:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:jar.ParameterTest@4411d970]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-02-04T15:57:33Z" finished-at="2019-02-04T15:57:33Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:jar.ParameterTest@4411d970]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-01-17T18:49:40Z" finished-at="2019-01-17T18:49:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:jar.ParameterTest@4411d970]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-02-04T15:57:33Z" finished-at="2019-02-04T15:57:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="testCase2()[pri:0, instance:jar.ParameterTest@4411d970]" name="testCase2" duration-ms="0" started-at="2019-02-04T15:57:33Z" finished-at="2019-02-04T15:57:33Z">
+        <test-method status="PASS" signature="testCase2()[pri:0, instance:jar.ParameterTest@4411d970]" name="testCase2" duration-ms="1" started-at="2019-01-17T18:49:40Z" finished-at="2019-01-17T18:49:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase2 -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:jar.ParameterTest@4411d970]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-02-04T15:57:33Z" finished-at="2019-02-04T15:57:33Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:jar.ParameterTest@4411d970]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-01-17T18:49:40Z" finished-at="2019-01-17T18:49:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:jar.ParameterTest@4411d970]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-02-04T15:57:33Z" finished-at="2019-02-04T15:57:33Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:jar.ParameterTest@4411d970]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-01-17T18:49:40Z" finished-at="2019-01-17T18:49:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:jar.ParameterTest@4411d970]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-01-17T18:49:40Z" finished-at="2019-01-17T18:49:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
       </class> <!-- jar.ParameterTest -->
       <class name="jar.NewTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:jar.NewTest@58ceff1]" name="beforeSuite" is-config="true" duration-ms="6" started-at="2019-02-04T15:57:33Z" finished-at="2019-02-04T15:57:33Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:jar.NewTest@58ceff1]" name="beforeSuite" is-config="true" duration-ms="6" started-at="2019-01-17T18:49:40Z" finished-at="2019-01-17T18:49:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:jar.ParameterTest@4411d970]" name="beforeSuite" is-config="true" duration-ms="1" started-at="2019-02-04T15:57:33Z" finished-at="2019-02-04T15:57:33Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:jar.ParameterTest@4411d970]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2019-01-17T18:49:40Z" finished-at="2019-01-17T18:49:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:jar.ParameterTest@4411d970]" name="afterSuite" is-config="true" duration-ms="0" started-at="2019-02-04T15:57:33Z" finished-at="2019-02-04T15:57:33Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:jar.ParameterTest@4411d970]" name="afterSuite" is-config="true" duration-ms="1" started-at="2019-01-17T18:49:40Z" finished-at="2019-01-17T18:49:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:jar.NewTest@58ceff1]" name="afterSuite" is-config="true" duration-ms="0" started-at="2019-02-04T15:57:33Z" finished-at="2019-02-04T15:57:33Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:jar.NewTest@58ceff1]" name="afterSuite" is-config="true" duration-ms="0" started-at="2019-01-17T18:49:40Z" finished-at="2019-01-17T18:49:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->

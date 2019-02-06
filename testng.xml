@@ -1,17 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Parallel Suite" verbose="5"
-	thread-count="5" parallel="false">
-	<test name="Test0">
+<suite name="Tests for GeometricObjects" verbose="1">
+	<test name="QuadrateParameter1">
 		<classes>
-			<class name="jar.NewTest" />
+			<class name="jar.quadrate.TestsForQuadrate" />
+			<parameter name="sideOfASquare" value="-26.594" />
 		</classes>
 	</test>
-	<!-- Test -->
-	<test name="Test1">
+	<test name="QuadrateParameter2">
 		<classes>
-			<class name="jar.ParameterTest" />
+			<class name="jar.quadrate.TestsForQuadrate" />
+			<parameter name="sideOfASquare" value="-3" />
 		</classes>
 	</test>
-	<!-- Test -->
-</suite><!-- Suite -->
+	<test name="QuadrateParameter3">
+		<classes>
+			<class name="jar.quadrate.TestsForQuadrate" />
+			<parameter name="sideOfASquare" value="0" />
+		</classes>
+	</test>
+	<test name="QuadrateParameter4">
+		<classes>
+			<class name="jar.quadrate.TestsForQuadrate" />
+			<parameter name="sideOfASquare" value="3" />
+		</classes>
+	</test>
+	<test name="QuadrateParameter5">
+		<classes>
+			<class name="jar.quadrate.TestsForQuadrate" />
+			<parameter name="sideOfASquare" value="26.594" />
+		</classes>
+	</test>
+	<test name="QuadrateParameter6">
+		<classes>
+			<class name="jar.ExpectedExeption" />
+			<parameter name="value" value="-125" />
+		</classes>
+	</test>
+	<test name="TestsWithFactoryForCircle">
+		<classes>
+			<class name="jar.circle.TestFactoryForCircle" />
+		</classes>
+	</test>
+	<test name="TestsWithDataProviderForRectangle">
+		<packages>
+			<package name="jar.rectangle" />
+		</packages>
+	</test>
+</suite>

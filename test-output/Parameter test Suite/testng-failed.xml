@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Parameter test Suite]">
+  <test thread-count="5" name="QuadrateParameter1(failed)">
+    <parameter name="sideOfASquare" value="-26.594"/>
+    <classes>
+      <class name="jar.quadrate.TestsForGetQuadrate">
+        <methods>
+          <include name="testGetPerimeter" invocation-numbers="0"/>
+          <include name="testGetSquare" invocation-numbers="0"/>
+          <include name="testGetQuadrate"/>
+        </methods>
+      </class> <!-- jar.quadrate.TestsForGetQuadrate -->
+    </classes>
+  </test> <!-- QuadrateParameter1(failed) -->
+  <test thread-count="5" name="QuadrateParameter2(failed)">
+    <parameter name="sideOfASquare" value="-3"/>
+    <classes>
+      <class name="jar.quadrate.TestsForGetQuadrate">
+        <methods>
+          <include name="testGetPerimeter" invocation-numbers="0"/>
+          <include name="testGetQuadrate"/>
+        </methods>
+      </class> <!-- jar.quadrate.TestsForGetQuadrate -->
+    </classes>
+  </test> <!-- QuadrateParameter2(failed) -->
+  <test thread-count="5" name="QuadrateParameter3(failed)">
+    <parameter name="sideOfASquare" value="0"/>
+    <classes>
+      <class name="jar.quadrate.TestsForGetQuadrate">
+        <methods>
+          <include name="testGetPerimeter" invocation-numbers="0"/>
+          <include name="testGetQuadrate"/>
+        </methods>
+      </class> <!-- jar.quadrate.TestsForGetQuadrate -->
+    </classes>
+  </test> <!-- QuadrateParameter3(failed) -->
+  <test thread-count="5" name="QuadrateParameter5(failed)">
+    <parameter name="sideOfASquare" value="26.594"/>
+    <classes>
+      <class name="jar.quadrate.TestsForGetQuadrate">
+        <methods>
+          <include name="testGetSquare" invocation-numbers="0"/>
+          <include name="testGetQuadrate"/>
+        </methods>
+      </class> <!-- jar.quadrate.TestsForGetQuadrate -->
+    </classes>
+  </test> <!-- QuadrateParameter5(failed) -->
+  <test thread-count="5" name="TestsWithFactoryForCircle(failed)">
+    <classes>
+      <class name="jar.circle.TestsForCircle">
+        <methods>
+          <include name="testGetSquare"/>
+          <include name="testGetSquare"/>
+          <include name="testGetCircumference"/>
+          <include name="testGetCircumference"/>
+          <include name="testGetCircumference"/>
+          <include name="testGetCircumference"/>
+        </methods>
+      </class> <!-- jar.circle.TestsForCircle -->
+    </classes>
+  </test> <!-- TestsWithFactoryForCircle(failed) -->
+</suite> <!-- Failed suite [Parameter test Suite] -->
