@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="0.048" tests="75" errors="0" skipped="0" failures="30">
+<testsuite name="TestSuite" time="0.031" tests="75" errors="0" skipped="0" failures="30">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
@@ -46,7 +46,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_191\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="user.language.format" value="ru"/>
@@ -66,8 +66,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testGetQuadrate" classname="jar.quadrate.TestsForQuadrate" time="0"/>
-  <testcase name="testGetPerimeter" classname="jar.quadrate.TestsForQuadrate" time="0.016">
+  <testcase name="testGetQuadrate" classname="jar.quadrate.TestsForQuadrate" time="0.015"/>
+  <testcase name="testGetPerimeter" classname="jar.quadrate.TestsForQuadrate" time="0">
     <failure message="expected [-106.376] but found [106.376]" type="java.lang.AssertionError">java.lang.AssertionError: expected [-106.376] but found [106.376]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
@@ -105,7 +105,7 @@
   <testcase name="testGetQuadrate" classname="jar.quadrate.TestsForQuadrate" time="0"/>
   <testcase name="testGetPerimeter" classname="jar.quadrate.TestsForQuadrate" time="0"/>
   <testcase name="testGetSquare" classname="jar.quadrate.TestsForQuadrate" time="0"/>
-  <testcase name="testForFailing" classname="jar.ExpectedExeption" time="0">
+  <testcase name="testForFailing" classname="jar.ExpectedExeption" time="0.016">
     <failure message="&#10;Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExeption@4b2bac3f] should have thrown an exception of class java.lang.Exception" type="org.testng.TestException">org.testng.TestException: 
 Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExeption@4b2bac3f] should have thrown an exception of class java.lang.Exception
 	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
@@ -153,7 +153,7 @@ Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExept
 	at jar.circle.TestsForCircle.testGetCircumference(TestsForCircle.java:26)
 </failure>
   </testcase>
-  <testcase name="testGetCircumference" classname="jar.circle.TestsForCircle" time="0.016">
+  <testcase name="testGetCircumference" classname="jar.circle.TestsForCircle" time="0">
     <failure message="expected [18.85] but found [118.438]" type="java.lang.AssertionError">java.lang.AssertionError: expected [18.85] but found [118.438]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
@@ -203,7 +203,7 @@ Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExept
   <testcase name="testGetSquare" classname="jar.circle.TestsForCircle" time="0"/>
   <testcase name="testGetSquare" classname="jar.circle.TestsForCircle" time="0"/>
   <testcase name="testGetPerimeter" classname="jar.rectangle.TestsForRectangle" time="0"/>
-  <testcase name="testGetPerimeter" classname="jar.rectangle.TestsForRectangle" time="0.016">
+  <testcase name="testGetPerimeter" classname="jar.rectangle.TestsForRectangle" time="0">
     <failure message="expected [114.917372] but found [115.917372]" type="java.lang.AssertionError">java.lang.AssertionError: expected [114.917372] but found [115.917372]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)

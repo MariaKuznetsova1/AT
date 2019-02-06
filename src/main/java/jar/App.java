@@ -1,7 +1,5 @@
 package jar;
 
-import epam.saratov.homeWork.testng.objects.GeometricObjects;
-
 /**
  * Hello world!
  *

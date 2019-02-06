@@ -2,7 +2,7 @@
 <testng-results skipped="0" failed="30" total="75" passed="45">
   <reporter-output>
   </reporter-output>
-  <suite name="Tests for GeometricObjects" duration-ms="154" started-at="2019-02-06T15:28:49Z" finished-at="2019-02-06T15:28:49Z">
+  <suite name="Tests for GeometricObjects" duration-ms="172" started-at="2019-02-06T15:33:02Z" finished-at="2019-02-06T15:33:02Z">
     <groups>
       <group name="testGetPerimeter">
         <method signature="TestsForQuadrate.testGetPerimeter(double)[pri:0, instance:jar.quadrate.TestsForQuadrate@dfd3711]" name="testGetPerimeter" class="jar.quadrate.TestsForQuadrate"/>
@@ -19,9 +19,20 @@
         <method signature="TestsForQuadrate.testGetQuadrate(double)[pri:0, instance:jar.quadrate.TestsForQuadrate@55b7a4e0]" name="testGetQuadrate" class="jar.quadrate.TestsForQuadrate"/>
       </group> <!-- testGetQuadrate -->
     </groups>
-    <test name="QuadrateParameter1" duration-ms="32" started-at="2019-02-06T15:28:49Z" finished-at="2019-02-06T15:28:49Z">
+    <test name="QuadrateParameter1" duration-ms="38" started-at="2019-02-06T15:33:02Z" finished-at="2019-02-06T15:33:02Z">
       <class name="jar.quadrate.TestsForQuadrate">
-        <test-method status="FAIL" signature="testGetPerimeter(double)[pri:0, instance:jar.quadrate.TestsForQuadrate@dfd3711]" name="testGetPerimeter" duration-ms="0" depends-on-groups="testGetQuadrate" started-at="2019-02-06T18:28:49Z" description="Тестируется правильность вычисления переметра" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="PASS" signature="testGetQuadrate(double)[pri:0, instance:jar.quadrate.TestsForQuadrate@dfd3711]" name="testGetQuadrate" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется возможность создания объекта класса Quadrate" finished-at="2019-02-06T18:33:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-26.594]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetQuadrate -->
+        <test-method status="FAIL" signature="testGetPerimeter(double)[pri:0, instance:jar.quadrate.TestsForQuadrate@dfd3711]" name="testGetPerimeter" duration-ms="0" depends-on-groups="testGetQuadrate" started-at="2019-02-06T18:33:02Z" description="Тестируется правильность вычисления переметра" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -79,18 +90,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetPerimeter -->
-        <test-method status="PASS" signature="testGetQuadrate(double)[pri:0, instance:jar.quadrate.TestsForQuadrate@dfd3711]" name="testGetQuadrate" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется возможность создания объекта класса Quadrate" finished-at="2019-02-06T18:28:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[-26.594]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetQuadrate -->
-        <test-method status="PASS" signature="testGetSquare(double)[pri:0, instance:jar.quadrate.TestsForQuadrate@dfd3711]" name="testGetSquare" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется правильность вычисления площади" depends-on-methods="jar.quadrate.TestsForQuadrate.testGetQuadrate" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="PASS" signature="testGetSquare(double)[pri:0, instance:jar.quadrate.TestsForQuadrate@dfd3711]" name="testGetSquare" duration-ms="7" started-at="2019-02-06T18:33:02Z" description="Тестируется правильность вычисления площади" depends-on-methods="jar.quadrate.TestsForQuadrate.testGetQuadrate" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -103,9 +103,9 @@
         </test-method> <!-- testGetSquare -->
       </class> <!-- jar.quadrate.TestsForQuadrate -->
     </test> <!-- QuadrateParameter1 -->
-    <test name="QuadrateParameter2" duration-ms="0" started-at="2019-02-06T15:28:49Z" finished-at="2019-02-06T15:28:49Z">
+    <test name="QuadrateParameter2" duration-ms="0" started-at="2019-02-06T15:33:02Z" finished-at="2019-02-06T15:33:02Z">
       <class name="jar.quadrate.TestsForQuadrate">
-        <test-method status="PASS" signature="testGetQuadrate(double)[pri:0, instance:jar.quadrate.TestsForQuadrate@50b494a6]" name="testGetQuadrate" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется возможность создания объекта класса Quadrate" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="PASS" signature="testGetQuadrate(double)[pri:0, instance:jar.quadrate.TestsForQuadrate@50b494a6]" name="testGetQuadrate" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется возможность создания объекта класса Quadrate" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -116,7 +116,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetQuadrate -->
-        <test-method status="FAIL" signature="testGetPerimeter(double)[pri:0, instance:jar.quadrate.TestsForQuadrate@50b494a6]" name="testGetPerimeter" duration-ms="0" depends-on-groups="testGetQuadrate" started-at="2019-02-06T18:28:49Z" description="Тестируется правильность вычисления переметра" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="FAIL" signature="testGetPerimeter(double)[pri:0, instance:jar.quadrate.TestsForQuadrate@50b494a6]" name="testGetPerimeter" duration-ms="0" depends-on-groups="testGetQuadrate" started-at="2019-02-06T18:33:02Z" description="Тестируется правильность вычисления переметра" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -174,7 +174,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetPerimeter -->
-        <test-method status="PASS" signature="testGetSquare(double)[pri:0, instance:jar.quadrate.TestsForQuadrate@50b494a6]" name="testGetSquare" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется правильность вычисления площади" depends-on-methods="jar.quadrate.TestsForQuadrate.testGetQuadrate" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="PASS" signature="testGetSquare(double)[pri:0, instance:jar.quadrate.TestsForQuadrate@50b494a6]" name="testGetSquare" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется правильность вычисления площади" depends-on-methods="jar.quadrate.TestsForQuadrate.testGetQuadrate" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -187,9 +187,9 @@
         </test-method> <!-- testGetSquare -->
       </class> <!-- jar.quadrate.TestsForQuadrate -->
     </test> <!-- QuadrateParameter2 -->
-    <test name="QuadrateParameter3" duration-ms="0" started-at="2019-02-06T15:28:49Z" finished-at="2019-02-06T15:28:49Z">
+    <test name="QuadrateParameter3" duration-ms="0" started-at="2019-02-06T15:33:02Z" finished-at="2019-02-06T15:33:02Z">
       <class name="jar.quadrate.TestsForQuadrate">
-        <test-method status="PASS" signature="testGetQuadrate(double)[pri:0, instance:jar.quadrate.TestsForQuadrate@134593bf]" name="testGetQuadrate" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется возможность создания объекта класса Quadrate" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="PASS" signature="testGetQuadrate(double)[pri:0, instance:jar.quadrate.TestsForQuadrate@134593bf]" name="testGetQuadrate" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется возможность создания объекта класса Quadrate" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -200,7 +200,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetQuadrate -->
-        <test-method status="FAIL" signature="testGetPerimeter(double)[pri:0, instance:jar.quadrate.TestsForQuadrate@134593bf]" name="testGetPerimeter" duration-ms="0" depends-on-groups="testGetQuadrate" started-at="2019-02-06T18:28:49Z" description="Тестируется правильность вычисления переметра" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="FAIL" signature="testGetPerimeter(double)[pri:0, instance:jar.quadrate.TestsForQuadrate@134593bf]" name="testGetPerimeter" duration-ms="0" depends-on-groups="testGetQuadrate" started-at="2019-02-06T18:33:02Z" description="Тестируется правильность вычисления переметра" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -258,7 +258,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetPerimeter -->
-        <test-method status="PASS" signature="testGetSquare(double)[pri:0, instance:jar.quadrate.TestsForQuadrate@134593bf]" name="testGetSquare" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется правильность вычисления площади" depends-on-methods="jar.quadrate.TestsForQuadrate.testGetQuadrate" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="PASS" signature="testGetSquare(double)[pri:0, instance:jar.quadrate.TestsForQuadrate@134593bf]" name="testGetSquare" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется правильность вычисления площади" depends-on-methods="jar.quadrate.TestsForQuadrate.testGetQuadrate" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -271,9 +271,9 @@
         </test-method> <!-- testGetSquare -->
       </class> <!-- jar.quadrate.TestsForQuadrate -->
     </test> <!-- QuadrateParameter3 -->
-    <test name="QuadrateParameter4" duration-ms="0" started-at="2019-02-06T15:28:49Z" finished-at="2019-02-06T15:28:49Z">
+    <test name="QuadrateParameter4" duration-ms="0" started-at="2019-02-06T15:33:02Z" finished-at="2019-02-06T15:33:02Z">
       <class name="jar.quadrate.TestsForQuadrate">
-        <test-method status="PASS" signature="testGetQuadrate(double)[pri:0, instance:jar.quadrate.TestsForQuadrate@2b6856dd]" name="testGetQuadrate" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется возможность создания объекта класса Quadrate" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="PASS" signature="testGetQuadrate(double)[pri:0, instance:jar.quadrate.TestsForQuadrate@2b6856dd]" name="testGetQuadrate" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется возможность создания объекта класса Quadrate" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -284,7 +284,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetQuadrate -->
-        <test-method status="PASS" signature="testGetPerimeter(double)[pri:0, instance:jar.quadrate.TestsForQuadrate@2b6856dd]" name="testGetPerimeter" duration-ms="0" depends-on-groups="testGetQuadrate" started-at="2019-02-06T18:28:49Z" description="Тестируется правильность вычисления переметра" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="PASS" signature="testGetPerimeter(double)[pri:0, instance:jar.quadrate.TestsForQuadrate@2b6856dd]" name="testGetPerimeter" duration-ms="0" depends-on-groups="testGetQuadrate" started-at="2019-02-06T18:33:02Z" description="Тестируется правильность вычисления переметра" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -295,7 +295,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetPerimeter -->
-        <test-method status="PASS" signature="testGetSquare(double)[pri:0, instance:jar.quadrate.TestsForQuadrate@2b6856dd]" name="testGetSquare" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется правильность вычисления площади" depends-on-methods="jar.quadrate.TestsForQuadrate.testGetQuadrate" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="PASS" signature="testGetSquare(double)[pri:0, instance:jar.quadrate.TestsForQuadrate@2b6856dd]" name="testGetSquare" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется правильность вычисления площади" depends-on-methods="jar.quadrate.TestsForQuadrate.testGetQuadrate" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -308,9 +308,9 @@
         </test-method> <!-- testGetSquare -->
       </class> <!-- jar.quadrate.TestsForQuadrate -->
     </test> <!-- QuadrateParameter4 -->
-    <test name="QuadrateParameter5" duration-ms="0" started-at="2019-02-06T15:28:49Z" finished-at="2019-02-06T15:28:49Z">
+    <test name="QuadrateParameter5" duration-ms="0" started-at="2019-02-06T15:33:02Z" finished-at="2019-02-06T15:33:02Z">
       <class name="jar.quadrate.TestsForQuadrate">
-        <test-method status="PASS" signature="testGetPerimeter(double)[pri:0, instance:jar.quadrate.TestsForQuadrate@55b7a4e0]" name="testGetPerimeter" duration-ms="0" depends-on-groups="testGetQuadrate" started-at="2019-02-06T18:28:49Z" description="Тестируется правильность вычисления переметра" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="PASS" signature="testGetPerimeter(double)[pri:0, instance:jar.quadrate.TestsForQuadrate@55b7a4e0]" name="testGetPerimeter" duration-ms="0" depends-on-groups="testGetQuadrate" started-at="2019-02-06T18:33:02Z" description="Тестируется правильность вычисления переметра" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -321,7 +321,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetPerimeter -->
-        <test-method status="PASS" signature="testGetSquare(double)[pri:0, instance:jar.quadrate.TestsForQuadrate@55b7a4e0]" name="testGetSquare" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется правильность вычисления площади" depends-on-methods="jar.quadrate.TestsForQuadrate.testGetQuadrate" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="PASS" signature="testGetSquare(double)[pri:0, instance:jar.quadrate.TestsForQuadrate@55b7a4e0]" name="testGetSquare" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется правильность вычисления площади" depends-on-methods="jar.quadrate.TestsForQuadrate.testGetQuadrate" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -332,7 +332,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetSquare -->
-        <test-method status="PASS" signature="testGetQuadrate(double)[pri:0, instance:jar.quadrate.TestsForQuadrate@55b7a4e0]" name="testGetQuadrate" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется возможность создания объекта класса Quadrate" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="PASS" signature="testGetQuadrate(double)[pri:0, instance:jar.quadrate.TestsForQuadrate@55b7a4e0]" name="testGetQuadrate" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется возможность создания объекта класса Quadrate" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -345,9 +345,9 @@
         </test-method> <!-- testGetQuadrate -->
       </class> <!-- jar.quadrate.TestsForQuadrate -->
     </test> <!-- QuadrateParameter5 -->
-    <test name="QuadrateParameter6" duration-ms="0" started-at="2019-02-06T15:28:49Z" finished-at="2019-02-06T15:28:49Z">
+    <test name="QuadrateParameter6" duration-ms="16" started-at="2019-02-06T15:33:02Z" finished-at="2019-02-06T15:33:02Z">
       <class name="jar.ExpectedExeption">
-        <test-method status="FAIL" signature="testForFailing(double)[pri:0, instance:jar.ExpectedExeption@4b2bac3f]" name="testForFailing" duration-ms="0" started-at="2019-02-06T18:28:49Z" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="FAIL" signature="testForFailing(double)[pri:0, instance:jar.ExpectedExeption@4b2bac3f]" name="testForFailing" duration-ms="0" started-at="2019-02-06T18:33:02Z" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -407,9 +407,9 @@ Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExept
         </test-method> <!-- testForFailing -->
       </class> <!-- jar.ExpectedExeption -->
     </test> <!-- QuadrateParameter6 -->
-    <test name="TestsWithFactoryForCircle" duration-ms="16" started-at="2019-02-06T15:28:49Z" finished-at="2019-02-06T15:28:49Z">
+    <test name="TestsWithFactoryForCircle" duration-ms="15" started-at="2019-02-06T15:33:02Z" finished-at="2019-02-06T15:33:02Z">
       <class name="jar.circle.TestsForCircle">
-        <test-method status="FAIL" signature="testGetCircumference()[pri:0, instance:jar.circle.TestsForCircle@62230c58]" name="testGetCircumference" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется метод подсчёта длины окружности" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="FAIL" signature="testGetCircumference()[pri:0, instance:jar.circle.TestsForCircle@62230c58]" name="testGetCircumference" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется метод подсчёта длины окружности" finished-at="2019-02-06T18:33:02Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [22.305] but found [140.146]]]>
@@ -460,15 +460,15 @@ Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExept
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetCircumference -->
-        <test-method status="PASS" signature="testGetCircle()[pri:0, instance:jar.circle.TestsForCircle@747edf66]" name="testGetCircle" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется возможность создания экземпляра класа Circle" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="PASS" signature="testGetCircle()[pri:0, instance:jar.circle.TestsForCircle@747edf66]" name="testGetCircle" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется возможность создания экземпляра класа Circle" finished-at="2019-02-06T18:33:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetCircle -->
-        <test-method status="PASS" signature="testGetSquare()[pri:0, instance:jar.circle.TestsForCircle@3d1cfad4]" name="testGetSquare" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется метод подсчета площади круга" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="PASS" signature="testGetSquare()[pri:0, instance:jar.circle.TestsForCircle@3d1cfad4]" name="testGetSquare" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется метод подсчета площади круга" finished-at="2019-02-06T18:33:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetSquare -->
-        <test-method status="FAIL" signature="testGetSquare()[pri:0, instance:jar.circle.TestsForCircle@346d61be]" name="testGetSquare" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется метод подсчета площади круга" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="FAIL" signature="testGetSquare()[pri:0, instance:jar.circle.TestsForCircle@346d61be]" name="testGetSquare" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется метод подсчета площади круга" finished-at="2019-02-06T18:33:02Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [39.592] but found [0.0]]]>
@@ -519,7 +519,7 @@ Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExept
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetSquare -->
-        <test-method status="FAIL" signature="testGetCircumference()[pri:0, instance:jar.circle.TestsForCircle@346d61be]" name="testGetCircumference" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется метод подсчёта длины окружности" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="FAIL" signature="testGetCircumference()[pri:0, instance:jar.circle.TestsForCircle@346d61be]" name="testGetCircumference" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется метод подсчёта длины окружности" finished-at="2019-02-06T18:33:02Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [-22.305] but found [140.146]]]>
@@ -570,11 +570,11 @@ Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExept
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetCircumference -->
-        <test-method status="PASS" signature="testGetCircle()[pri:0, instance:jar.circle.TestsForCircle@346d61be]" name="testGetCircle" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется возможность создания экземпляра класа Circle" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="PASS" signature="testGetCircle()[pri:0, instance:jar.circle.TestsForCircle@346d61be]" name="testGetCircle" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется возможность создания экземпляра класа Circle" finished-at="2019-02-06T18:33:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetCircle -->
-        <test-method status="FAIL" signature="testGetSquare()[pri:0, instance:jar.circle.TestsForCircle@55536d9e]" name="testGetSquare" duration-ms="16" started-at="2019-02-06T18:28:49Z" description="Тестируется метод подсчета площади круга" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="FAIL" signature="testGetSquare()[pri:0, instance:jar.circle.TestsForCircle@55536d9e]" name="testGetSquare" duration-ms="15" started-at="2019-02-06T18:33:02Z" description="Тестируется метод подсчета площади круга" finished-at="2019-02-06T18:33:02Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [28.274] but found [0.0]]]>
@@ -625,7 +625,7 @@ Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExept
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetSquare -->
-        <test-method status="FAIL" signature="testGetCircumference()[pri:0, instance:jar.circle.TestsForCircle@55536d9e]" name="testGetCircumference" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется метод подсчёта длины окружности" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="FAIL" signature="testGetCircumference()[pri:0, instance:jar.circle.TestsForCircle@55536d9e]" name="testGetCircumference" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется метод подсчёта длины окружности" finished-at="2019-02-06T18:33:02Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [-18.85] but found [118.438]]]>
@@ -676,19 +676,19 @@ Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExept
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetCircumference -->
-        <test-method status="PASS" signature="testGetCircle()[pri:0, instance:jar.circle.TestsForCircle@3d1cfad4]" name="testGetCircle" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется возможность создания экземпляра класа Circle" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="PASS" signature="testGetCircle()[pri:0, instance:jar.circle.TestsForCircle@3d1cfad4]" name="testGetCircle" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется возможность создания экземпляра класа Circle" finished-at="2019-02-06T18:33:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetCircle -->
-        <test-method status="PASS" signature="testGetCircle()[pri:0, instance:jar.circle.TestsForCircle@62230c58]" name="testGetCircle" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется возможность создания экземпляра класа Circle" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="PASS" signature="testGetCircle()[pri:0, instance:jar.circle.TestsForCircle@62230c58]" name="testGetCircle" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется возможность создания экземпляра класа Circle" finished-at="2019-02-06T18:33:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetCircle -->
-        <test-method status="PASS" signature="testGetCircle()[pri:0, instance:jar.circle.TestsForCircle@55536d9e]" name="testGetCircle" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется возможность создания экземпляра класа Circle" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="PASS" signature="testGetCircle()[pri:0, instance:jar.circle.TestsForCircle@55536d9e]" name="testGetCircle" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется возможность создания экземпляра класа Circle" finished-at="2019-02-06T18:33:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetCircle -->
-        <test-method status="FAIL" signature="testGetCircumference()[pri:0, instance:jar.circle.TestsForCircle@3d1cfad4]" name="testGetCircumference" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется метод подсчёта длины окружности" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="FAIL" signature="testGetCircumference()[pri:0, instance:jar.circle.TestsForCircle@3d1cfad4]" name="testGetCircumference" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется метод подсчёта длины окружности" finished-at="2019-02-06T18:33:02Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [18.85] but found [118.438]]]>
@@ -739,102 +739,23 @@ Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExept
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetCircumference -->
-        <test-method status="PASS" signature="testGetCircumference()[pri:0, instance:jar.circle.TestsForCircle@747edf66]" name="testGetCircumference" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется метод подсчёта длины окружности" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="PASS" signature="testGetCircumference()[pri:0, instance:jar.circle.TestsForCircle@747edf66]" name="testGetCircumference" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется метод подсчёта длины окружности" finished-at="2019-02-06T18:33:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetCircumference -->
-        <test-method status="PASS" signature="testGetSquare()[pri:0, instance:jar.circle.TestsForCircle@62230c58]" name="testGetSquare" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется метод подсчета площади круга" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="PASS" signature="testGetSquare()[pri:0, instance:jar.circle.TestsForCircle@62230c58]" name="testGetSquare" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется метод подсчета площади круга" finished-at="2019-02-06T18:33:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetSquare -->
-        <test-method status="PASS" signature="testGetSquare()[pri:0, instance:jar.circle.TestsForCircle@747edf66]" name="testGetSquare" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется метод подсчета площади круга" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="PASS" signature="testGetSquare()[pri:0, instance:jar.circle.TestsForCircle@747edf66]" name="testGetSquare" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется метод подсчета площади круга" finished-at="2019-02-06T18:33:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetSquare -->
       </class> <!-- jar.circle.TestsForCircle -->
     </test> <!-- TestsWithFactoryForCircle -->
-    <test name="TestsWithDataProviderForRectangle" duration-ms="16" started-at="2019-02-06T15:28:49Z" finished-at="2019-02-06T15:28:49Z">
+    <test name="TestsWithDataProviderForRectangle" duration-ms="16" started-at="2019-02-06T15:33:02Z" finished-at="2019-02-06T15:33:02Z">
       <class name="jar.rectangle.TestsForRectangle">
-        <test-method status="PASS" signature="testGetPerimeter(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetPerimeter" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется правильность вычисления переметра" data-provider="dp" finished-at="2019-02-06T18:28:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetPerimeter -->
-        <test-method status="FAIL" signature="testGetPerimeter(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetPerimeter" duration-ms="16" started-at="2019-02-06T18:28:49Z" description="Тестируется правильность вычисления переметра" data-provider="dp" finished-at="2019-02-06T18:28:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[56.958686]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [114.917372] but found [115.917372]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [114.917372] but found [115.917372]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertEquals(Assert.java:123)
-	at org.testng.Assert.assertEquals(Assert.java:165)
-	at jar.rectangle.TestsForRectangle.testGetPerimeter(TestsForRectangle.java:22)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetPerimeter -->
-        <test-method status="PASS" signature="testGetRectangle(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetRectangle" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется возможность создания объекта класса Rectangl" data-provider="dp" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="PASS" signature="testGetRectangle(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetRectangle" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется возможность создания объекта класса Rectangl" data-provider="dp" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -850,23 +771,7 @@ Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExept
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetRectangle -->
-        <test-method status="PASS" signature="testIsQuadrate(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testIsQuadrate" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется правильность определения является ли прямоугольник квадратом" data-provider="dp" finished-at="2019-02-06T18:28:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[56.32]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[56.23]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testIsQuadrate -->
-        <test-method status="FAIL" signature="testGetSquare(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetSquare" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется правильность вычисления площади" data-provider="dp" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="FAIL" signature="testGetSquare(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetSquare" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется правильность вычисления площади" data-provider="dp" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -929,7 +834,7 @@ Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExept
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetSquare -->
-        <test-method status="FAIL" signature="testGetSquare(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetSquare" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется правильность вычисления площади" data-provider="dp" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="FAIL" signature="testGetSquare(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetSquare" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется правильность вычисления площади" data-provider="dp" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -992,7 +897,7 @@ Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExept
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetSquare -->
-        <test-method status="FAIL" signature="testGetPerimeter(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetPerimeter" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется правильность вычисления переметра" data-provider="dp" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="FAIL" signature="testGetPerimeter(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetPerimeter" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется правильность вычисления переметра" data-provider="dp" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -1055,7 +960,7 @@ Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExept
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetPerimeter -->
-        <test-method status="FAIL" signature="testGetPerimeter(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetPerimeter" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется правильность вычисления переметра" data-provider="dp" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="FAIL" signature="testGetPerimeter(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetPerimeter" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется правильность вычисления переметра" data-provider="dp" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -1118,7 +1023,7 @@ Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExept
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetPerimeter -->
-        <test-method status="FAIL" signature="testGetPerimeter(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetPerimeter" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется правильность вычисления переметра" data-provider="dp" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="FAIL" signature="testGetPerimeter(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetPerimeter" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется правильность вычисления переметра" data-provider="dp" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -1181,23 +1086,7 @@ Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExept
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetPerimeter -->
-        <test-method status="PASS" signature="testIsQuadrate(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testIsQuadrate" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется правильность определения является ли прямоугольник квадратом" data-provider="dp" finished-at="2019-02-06T18:28:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[-8454.4554]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testIsQuadrate -->
-        <test-method status="PASS" signature="testGetRectangle(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetRectangle" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется возможность создания объекта класса Rectangl" data-provider="dp" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="PASS" signature="testGetRectangle(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetRectangle" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется возможность создания объекта класса Rectangl" data-provider="dp" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -1213,7 +1102,7 @@ Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExept
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetRectangle -->
-        <test-method status="PASS" signature="testGetRectangle(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetRectangle" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется возможность создания объекта класса Rectangl" data-provider="dp" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="PASS" signature="testGetRectangle(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetRectangle" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется возможность создания объекта класса Rectangl" data-provider="dp" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -1229,135 +1118,23 @@ Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExept
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetRectangle -->
-        <test-method status="FAIL" signature="testIsQuadrate(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testIsQuadrate" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется правильность определения является ли прямоугольник квадратом" data-provider="dp" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="PASS" signature="testGetPerimeter(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetPerimeter" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется правильность вычисления переметра" data-provider="dp" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[5.236]]>
+                <![CDATA[0]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[-5963.25]]>
+                <![CDATA[0]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [false] but found [true]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertEquals(Assert.java:123)
-	at org.testng.Assert.assertEquals(Assert.java:286)
-	at org.testng.Assert.assertEquals(Assert.java:296)
-	at jar.rectangle.TestsForRectangle.testIsQuadrate(TestsForRectangle.java:36)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testIsQuadrate -->
-        <test-method status="FAIL" signature="testIsQuadrate(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testIsQuadrate" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется правильность определения является ли прямоугольник квадратом" data-provider="dp" finished-at="2019-02-06T18:28:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[56.958686]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [false] but found [true]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertEquals(Assert.java:123)
-	at org.testng.Assert.assertEquals(Assert.java:286)
-	at org.testng.Assert.assertEquals(Assert.java:296)
-	at jar.rectangle.TestsForRectangle.testIsQuadrate(TestsForRectangle.java:36)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testIsQuadrate -->
-        <test-method status="PASS" signature="testGetRectangle(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetRectangle" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется возможность создания объекта класса Rectangl" data-provider="dp" finished-at="2019-02-06T18:28:49Z">
+        </test-method> <!-- testGetPerimeter -->
+        <test-method status="PASS" signature="testGetRectangle(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetRectangle" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется возможность создания объекта класса Rectangl" data-provider="dp" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -1373,23 +1150,7 @@ Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExept
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetRectangle -->
-        <test-method status="PASS" signature="testIsQuadrate(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testIsQuadrate" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется правильность определения является ли прямоугольник квадратом" data-provider="dp" finished-at="2019-02-06T18:28:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[-6554.25]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[54.38]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testIsQuadrate -->
-        <test-method status="PASS" signature="testGetRectangle(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetRectangle" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется возможность создания объекта класса Rectangl" data-provider="dp" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="PASS" signature="testGetRectangle(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetRectangle" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется возможность создания объекта класса Rectangl" data-provider="dp" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -1405,7 +1166,7 @@ Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExept
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetRectangle -->
-        <test-method status="PASS" signature="testGetSquare(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetSquare" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется правильность вычисления площади" data-provider="dp" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="PASS" signature="testGetSquare(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetSquare" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется правильность вычисления площади" data-provider="dp" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -1421,7 +1182,7 @@ Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExept
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetSquare -->
-        <test-method status="FAIL" signature="testGetSquare(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetSquare" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется правильность вычисления площади" data-provider="dp" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="FAIL" signature="testGetSquare(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetSquare" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется правильность вычисления площади" data-provider="dp" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -1484,7 +1245,7 @@ Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExept
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetSquare -->
-        <test-method status="FAIL" signature="testGetPerimeter(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetPerimeter" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется правильность вычисления переметра" data-provider="dp" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="FAIL" signature="testGetPerimeter(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetPerimeter" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется правильность вычисления переметра" data-provider="dp" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -1547,7 +1308,7 @@ Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExept
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetPerimeter -->
-        <test-method status="PASS" signature="testGetSquare(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetSquare" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется правильность вычисления площади" data-provider="dp" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="PASS" signature="testGetSquare(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetSquare" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется правильность вычисления площади" data-provider="dp" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -1563,7 +1324,7 @@ Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExept
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetSquare -->
-        <test-method status="PASS" signature="testGetSquare(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetSquare" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется правильность вычисления площади" data-provider="dp" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="PASS" signature="testGetSquare(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetSquare" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется правильность вычисления площади" data-provider="dp" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -1579,7 +1340,7 @@ Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExept
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetSquare -->
-        <test-method status="PASS" signature="testGetRectangle(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetRectangle" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется возможность создания объекта класса Rectangl" data-provider="dp" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="PASS" signature="testGetRectangle(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetRectangle" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется возможность создания объекта класса Rectangl" data-provider="dp" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -1595,23 +1356,7 @@ Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExept
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetRectangle -->
-        <test-method status="PASS" signature="testIsQuadrate(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testIsQuadrate" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется правильность определения является ли прямоугольник квадратом" data-provider="dp" finished-at="2019-02-06T18:28:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testIsQuadrate -->
-        <test-method status="FAIL" signature="testGetPerimeter(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetPerimeter" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется правильность вычисления переметра" data-provider="dp" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="FAIL" signature="testGetPerimeter(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetPerimeter" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется правильность вычисления переметра" data-provider="dp" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -1674,7 +1419,7 @@ Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExept
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetPerimeter -->
-        <test-method status="FAIL" signature="testGetSquare(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetSquare" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется правильность вычисления площади" data-provider="dp" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="FAIL" signature="testGetSquare(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetSquare" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется правильность вычисления площади" data-provider="dp" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -1737,71 +1482,7 @@ Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExept
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetSquare -->
-        <test-method status="FAIL" signature="testIsQuadrate(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testIsQuadrate" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется правильность определения является ли прямоугольник квадратом" data-provider="dp" finished-at="2019-02-06T18:28:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[-8]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [false] but found [true]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertEquals(Assert.java:123)
-	at org.testng.Assert.assertEquals(Assert.java:286)
-	at org.testng.Assert.assertEquals(Assert.java:296)
-	at jar.rectangle.TestsForRectangle.testIsQuadrate(TestsForRectangle.java:36)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testIsQuadrate -->
-        <test-method status="PASS" signature="testGetSquare(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetSquare" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется правильность вычисления площади" data-provider="dp" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="PASS" signature="testGetSquare(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetSquare" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется правильность вычисления площади" data-provider="dp" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -1817,7 +1498,7 @@ Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExept
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetSquare -->
-        <test-method status="PASS" signature="testGetRectangle(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetRectangle" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется возможность создания объекта класса Rectangl" data-provider="dp" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="PASS" signature="testGetRectangle(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetRectangle" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется возможность создания объекта класса Rectangl" data-provider="dp" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -1833,7 +1514,7 @@ Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExept
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetRectangle -->
-        <test-method status="PASS" signature="testGetSquare(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetSquare" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется правильность вычисления площади" data-provider="dp" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="PASS" signature="testGetSquare(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetSquare" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется правильность вычисления площади" data-provider="dp" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -1849,7 +1530,7 @@ Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExept
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetSquare -->
-        <test-method status="FAIL" signature="testGetPerimeter(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetPerimeter" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется правильность вычисления переметра" data-provider="dp" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="FAIL" signature="testGetPerimeter(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetPerimeter" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется правильность вычисления переметра" data-provider="dp" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -1912,7 +1593,7 @@ Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExept
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetPerimeter -->
-        <test-method status="FAIL" signature="testGetPerimeter(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetPerimeter" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется правильность вычисления переметра" data-provider="dp" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="FAIL" signature="testGetPerimeter(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetPerimeter" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется правильность вычисления переметра" data-provider="dp" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -1975,7 +1656,7 @@ Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExept
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetPerimeter -->
-        <test-method status="PASS" signature="testGetRectangle(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetRectangle" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется возможность создания объекта класса Rectangl" data-provider="dp" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="PASS" signature="testGetRectangle(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetRectangle" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется возможность создания объекта класса Rectangl" data-provider="dp" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -1991,23 +1672,7 @@ Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExept
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetRectangle -->
-        <test-method status="PASS" signature="testIsQuadrate(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testIsQuadrate" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется правильность определения является ли прямоугольник квадратом" data-provider="dp" finished-at="2019-02-06T18:28:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[5.0E-13]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[5.0E-13]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testIsQuadrate -->
-        <test-method status="FAIL" signature="testGetSquare(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetSquare" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется правильность вычисления площади" data-provider="dp" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="FAIL" signature="testGetSquare(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetSquare" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется правильность вычисления площади" data-provider="dp" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -2070,7 +1735,7 @@ Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExept
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetSquare -->
-        <test-method status="PASS" signature="testGetRectangle(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetRectangle" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется возможность создания объекта класса Rectangl" data-provider="dp" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="PASS" signature="testGetRectangle(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetRectangle" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется возможность создания объекта класса Rectangl" data-provider="dp" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -2086,7 +1751,7 @@ Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExept
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetRectangle -->
-        <test-method status="FAIL" signature="testGetPerimeter(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetPerimeter" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется правильность вычисления переметра" data-provider="dp" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="FAIL" signature="testGetPerimeter(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetPerimeter" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется правильность вычисления переметра" data-provider="dp" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -2149,7 +1814,7 @@ Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExept
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetPerimeter -->
-        <test-method status="PASS" signature="testGetRectangle(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetRectangle" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется возможность создания объекта класса Rectangl" data-provider="dp" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="PASS" signature="testGetRectangle(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetRectangle" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется возможность создания объекта класса Rectangl" data-provider="dp" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -2165,7 +1830,7 @@ Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExept
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetRectangle -->
-        <test-method status="PASS" signature="testGetSquare(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetSquare" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется правильность вычисления площади" data-provider="dp" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="PASS" signature="testGetSquare(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetSquare" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется правильность вычисления площади" data-provider="dp" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -2181,7 +1846,421 @@ Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExept
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetSquare -->
-        <test-method status="FAIL" signature="testIsQuadrate(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testIsQuadrate" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется правильность определения является ли прямоугольник квадратом" data-provider="dp" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="FAIL" signature="testGetPerimeter(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetPerimeter" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется правильность вычисления переметра" data-provider="dp" finished-at="2019-02-06T18:33:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[56.958686]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [114.917372] but found [115.917372]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [114.917372] but found [115.917372]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:165)
+	at jar.rectangle.TestsForRectangle.testGetPerimeter(TestsForRectangle.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPerimeter -->
+        <test-method status="PASS" signature="testGetRectangle(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetRectangle" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется возможность создания объекта класса Rectangl" data-provider="dp" finished-at="2019-02-06T18:33:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5.236]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-5963.25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetRectangle -->
+        <test-method status="FAIL" signature="testGetPerimeter(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetPerimeter" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется правильность вычисления переметра" data-provider="dp" finished-at="2019-02-06T18:33:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-85]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [-176.0] but found [182.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [-176.0] but found [182.0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:165)
+	at jar.rectangle.TestsForRectangle.testGetPerimeter(TestsForRectangle.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPerimeter -->
+        <test-method status="PASS" signature="testIsQuadrate(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testIsQuadrate" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется правильность определения является ли прямоугольник квадратом" data-provider="dp" finished-at="2019-02-06T18:33:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[56.32]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[56.23]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsQuadrate -->
+        <test-method status="PASS" signature="testIsQuadrate(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testIsQuadrate" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется правильность определения является ли прямоугольник квадратом" data-provider="dp" finished-at="2019-02-06T18:33:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-8454.4554]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsQuadrate -->
+        <test-method status="FAIL" signature="testIsQuadrate(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testIsQuadrate" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется правильность определения является ли прямоугольник квадратом" data-provider="dp" finished-at="2019-02-06T18:33:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5.236]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-5963.25]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:286)
+	at org.testng.Assert.assertEquals(Assert.java:296)
+	at jar.rectangle.TestsForRectangle.testIsQuadrate(TestsForRectangle.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsQuadrate -->
+        <test-method status="FAIL" signature="testIsQuadrate(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testIsQuadrate" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется правильность определения является ли прямоугольник квадратом" data-provider="dp" finished-at="2019-02-06T18:33:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[56.958686]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:286)
+	at org.testng.Assert.assertEquals(Assert.java:296)
+	at jar.rectangle.TestsForRectangle.testIsQuadrate(TestsForRectangle.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsQuadrate -->
+        <test-method status="PASS" signature="testIsQuadrate(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testIsQuadrate" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется правильность определения является ли прямоугольник квадратом" data-provider="dp" finished-at="2019-02-06T18:33:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-6554.25]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[54.38]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsQuadrate -->
+        <test-method status="PASS" signature="testIsQuadrate(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testIsQuadrate" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется правильность определения является ли прямоугольник квадратом" data-provider="dp" finished-at="2019-02-06T18:33:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsQuadrate -->
+        <test-method status="FAIL" signature="testIsQuadrate(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testIsQuadrate" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется правильность определения является ли прямоугольник квадратом" data-provider="dp" finished-at="2019-02-06T18:33:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-8]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:286)
+	at org.testng.Assert.assertEquals(Assert.java:296)
+	at jar.rectangle.TestsForRectangle.testIsQuadrate(TestsForRectangle.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsQuadrate -->
+        <test-method status="PASS" signature="testIsQuadrate(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testIsQuadrate" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется правильность определения является ли прямоугольник квадратом" data-provider="dp" finished-at="2019-02-06T18:33:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5.0E-13]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5.0E-13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsQuadrate -->
+        <test-method status="FAIL" signature="testIsQuadrate(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testIsQuadrate" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется правильность определения является ли прямоугольник квадратом" data-provider="dp" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -2245,86 +2324,7 @@ Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExept
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testIsQuadrate -->
-        <test-method status="PASS" signature="testGetRectangle(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetRectangle" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется возможность создания объекта класса Rectangl" data-provider="dp" finished-at="2019-02-06T18:28:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[5.236]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[-5963.25]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetRectangle -->
-        <test-method status="FAIL" signature="testGetPerimeter(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testGetPerimeter" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется правильность вычисления переметра" data-provider="dp" finished-at="2019-02-06T18:28:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[-6]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[-85]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [-176.0] but found [182.0]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [-176.0] but found [182.0]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertEquals(Assert.java:123)
-	at org.testng.Assert.assertEquals(Assert.java:165)
-	at jar.rectangle.TestsForRectangle.testGetPerimeter(TestsForRectangle.java:22)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetPerimeter -->
-        <test-method status="PASS" signature="testIsQuadrate(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testIsQuadrate" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется правильность определения является ли прямоугольник квадратом" data-provider="dp" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="PASS" signature="testIsQuadrate(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testIsQuadrate" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется правильность определения является ли прямоугольник квадратом" data-provider="dp" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>
@@ -2340,7 +2340,7 @@ Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExept
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testIsQuadrate -->
-        <test-method status="FAIL" signature="testIsQuadrate(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testIsQuadrate" duration-ms="0" started-at="2019-02-06T18:28:49Z" description="Тестируется правильность определения является ли прямоугольник квадратом" data-provider="dp" finished-at="2019-02-06T18:28:49Z">
+        <test-method status="FAIL" signature="testIsQuadrate(double, double)[pri:0, instance:jar.rectangle.TestsForRectangle@31ff43be]" name="testIsQuadrate" duration-ms="0" started-at="2019-02-06T18:33:02Z" description="Тестируется правильность определения является ли прямоугольник квадратом" data-provider="dp" finished-at="2019-02-06T18:33:02Z">
           <params>
             <param index="0">
               <value>

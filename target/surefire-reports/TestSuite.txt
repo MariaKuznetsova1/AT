@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 75, Failures: 30, Errors: 0, Skipped: 0, Time elapsed: 0.918 sec <<< FAILURE!
-testGetPerimeter(jar.quadrate.TestsForQuadrate)  Time elapsed: 0.016 sec  <<< FAILURE!
+Tests run: 75, Failures: 30, Errors: 0, Skipped: 0, Time elapsed: 0.927 sec <<< FAILURE!
+testGetPerimeter(jar.quadrate.TestsForQuadrate)  Time elapsed: 0 sec  <<< FAILURE!
 java.lang.AssertionError: expected [-106.376] but found [106.376]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
@@ -26,7 +26,7 @@ java.lang.AssertionError: expected [0.0] but found [-1.0]
 	at org.testng.Assert.assertEquals(Assert.java:165)
 	at jar.quadrate.TestsForQuadrate.testGetPerimeter(TestsForQuadrate.java:23)
 
-testForFailing(jar.ExpectedExeption)  Time elapsed: 0 sec  <<< FAILURE!
+testForFailing(jar.ExpectedExeption)  Time elapsed: 0.016 sec  <<< FAILURE!
 org.testng.TestException: 
 Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExeption@4b2bac3f] should have thrown an exception of class java.lang.Exception
 	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
@@ -67,7 +67,7 @@ java.lang.AssertionError: expected [-22.305] but found [140.146]
 	at org.testng.Assert.assertEquals(Assert.java:165)
 	at jar.circle.TestsForCircle.testGetCircumference(TestsForCircle.java:26)
 
-testGetCircumference(jar.circle.TestsForCircle)  Time elapsed: 0.016 sec  <<< FAILURE!
+testGetCircumference(jar.circle.TestsForCircle)  Time elapsed: 0 sec  <<< FAILURE!
 java.lang.AssertionError: expected [18.85] but found [118.438]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
@@ -107,7 +107,7 @@ java.lang.AssertionError: expected [28.274] but found [0.0]
 	at org.testng.Assert.assertEquals(Assert.java:165)
 	at jar.circle.TestsForCircle.testGetSquare(TestsForCircle.java:34)
 
-testGetPerimeter(jar.rectangle.TestsForRectangle)  Time elapsed: 0.016 sec  <<< FAILURE!
+testGetPerimeter(jar.rectangle.TestsForRectangle)  Time elapsed: 0 sec  <<< FAILURE!
 java.lang.AssertionError: expected [114.917372] but found [115.917372]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
