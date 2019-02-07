@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="0.031" tests="75" errors="0" skipped="0" failures="30">
+<testsuite name="TestSuite" time="0.048" tests="75" errors="0" skipped="0" failures="30">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
@@ -66,14 +66,14 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testGetQuadrate" classname="jar.quadrate.TestsForQuadrate" time="0.015"/>
-  <testcase name="testGetPerimeter" classname="jar.quadrate.TestsForQuadrate" time="0">
+  <testcase name="testGetQuadrate" classname="jar.quadrate.TestsForQuadrate" time="0.016"/>
+  <testcase name="testGetPerimeter" classname="jar.quadrate.TestsForQuadrate" time="0.016">
     <failure message="expected [-106.376] but found [106.376]" type="java.lang.AssertionError">java.lang.AssertionError: expected [-106.376] but found [106.376]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
 	at org.testng.Assert.assertEquals(Assert.java:123)
 	at org.testng.Assert.assertEquals(Assert.java:165)
-	at jar.quadrate.TestsForQuadrate.testGetPerimeter(TestsForQuadrate.java:23)
+	at jar.quadrate.TestsForQuadrate.testGetPerimeter(TestsForQuadrate.java:24)
 </failure>
   </testcase>
   <testcase name="testGetSquare" classname="jar.quadrate.TestsForQuadrate" time="0"/>
@@ -84,7 +84,7 @@
 	at org.testng.Assert.failNotEquals(Assert.java:494)
 	at org.testng.Assert.assertEquals(Assert.java:123)
 	at org.testng.Assert.assertEquals(Assert.java:165)
-	at jar.quadrate.TestsForQuadrate.testGetPerimeter(TestsForQuadrate.java:23)
+	at jar.quadrate.TestsForQuadrate.testGetPerimeter(TestsForQuadrate.java:24)
 </failure>
   </testcase>
   <testcase name="testGetSquare" classname="jar.quadrate.TestsForQuadrate" time="0"/>
@@ -95,7 +95,7 @@
 	at org.testng.Assert.failNotEquals(Assert.java:494)
 	at org.testng.Assert.assertEquals(Assert.java:123)
 	at org.testng.Assert.assertEquals(Assert.java:165)
-	at jar.quadrate.TestsForQuadrate.testGetPerimeter(TestsForQuadrate.java:23)
+	at jar.quadrate.TestsForQuadrate.testGetPerimeter(TestsForQuadrate.java:24)
 </failure>
   </testcase>
   <testcase name="testGetSquare" classname="jar.quadrate.TestsForQuadrate" time="0"/>
@@ -105,7 +105,7 @@
   <testcase name="testGetQuadrate" classname="jar.quadrate.TestsForQuadrate" time="0"/>
   <testcase name="testGetPerimeter" classname="jar.quadrate.TestsForQuadrate" time="0"/>
   <testcase name="testGetSquare" classname="jar.quadrate.TestsForQuadrate" time="0"/>
-  <testcase name="testForFailing" classname="jar.ExpectedExeption" time="0.016">
+  <testcase name="testForFailing" classname="jar.ExpectedExeption" time="0">
     <failure message="&#10;Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExeption@4b2bac3f] should have thrown an exception of class java.lang.Exception" type="org.testng.TestException">org.testng.TestException: 
 Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExeption@4b2bac3f] should have thrown an exception of class java.lang.Exception
 	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
@@ -410,5 +410,5 @@ Method ExpectedExeption.testForFailing(double)[pri:0, instance:jar.ExpectedExept
   </testcase>
   <testcase name="testIsQuadrate" classname="jar.rectangle.TestsForRectangle" time="0"/>
   <testcase name="testIsQuadrate" classname="jar.rectangle.TestsForRectangle" time="0"/>
-  <testcase name="testIsQuadrate" classname="jar.rectangle.TestsForRectangle" time="0"/>
+  <testcase name="testIsQuadrate" classname="jar.rectangle.TestsForRectangle" time="0.016"/>
 </testsuite>
